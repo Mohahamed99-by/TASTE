@@ -1,10 +1,90 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
+    
+    <!-- Primary Meta Tags -->
+    <title>TASTE - Award-Winning Fine Dining Restaurant in [Your City]</title>
+    <meta name="title" content="TASTE - Award-Winning Fine Dining Restaurant in [Your City]" />
+    <meta name="description" content="Experience exceptional fine dining at TASTE restaurant. Enjoy fresh seafood, prime steaks, and handcrafted pasta in an elegant atmosphere. Book your table today!" />
+    <meta name="keywords" content="fine dining [city], best restaurant [city], seafood restaurant, luxury dining, steak house, Italian cuisine, romantic restaurant, wine pairing, chef's table, private dining" />
+    <meta name="robots" content="index, follow" />
+    <meta name="language" content="English" />
+    <meta name="author" content="TASTE Restaurant" />
+    <meta name="geo.region" content="[Your Region]" />
+    <meta name="geo.placename" content="[Your City]" />
+    
+    <!-- Schema.org Markup -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Restaurant",
+      "name": "TASTE Restaurant",
+      "image": "/restaurant-preview.jpg",
+      "url": "https://your-restaurant-domain.com",
+      "telephone": "+1-234-567-8900",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "123 Dining Street",
+        "addressLocality": "[Fes]",
+        "addressRegion": "[State]",
+        "postalCode": "12345",
+        "addressCountry": "Morocco"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": [Your Latitude],
+        "longitude": [Your Longitude]
+      },
+      "servesCuisine": ["Fine Dining", "Seafood", "Steakhouse", "Italian"],
+      "priceRange": "$$$",
+      "openingHours": [
+        "Mo-Fr 11:00-23:00",
+        "Sa-Su 10:00-23:00"
+      ],
+      "acceptsReservations": "True"
+    }
+    </script>
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://your-restaurant-domain.com" />
+    <meta property="og:title" content="TASTE - Award-Winning Fine Dining Restaurant in [Your City]" />
+    <meta property="og:description" content="Experience exceptional fine dining at TASTE restaurant. Fresh seafood, prime steaks, and handcrafted pasta in an elegant atmosphere. Book your table today!" />
+    <meta property="og:image" content="https://your-restaurant-domain.com/restaurant-preview.jpg" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:site_name" content="TASTE Restaurant" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@TASTErestaurant" />
+    <meta name="twitter:title" content="TASTE - Award-Winning Fine Dining Restaurant in [Your City]" />
+    <meta name="twitter:description" content="Experience exceptional fine dining at TASTE restaurant. Book your table today!" />
+    <meta name="twitter:image" content="https://your-restaurant-domain.com/restaurant-preview.jpg" />
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://your-restaurant-domain.com" />
+
+    <!-- Favicon Configuration -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />
+    <link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#f59e0b" />
+    <link rel="manifest" href="/favicon/site.webmanifest" />
+    
+    <!-- Theme Colors -->
+    <meta name="theme-color" content="#f59e0b" />
+    <meta name="msapplication-TileColor" content="#f59e0b" />
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    
+    <!-- Performance Optimizations -->
+    <link rel="preload" as="image" href="/restaurant-preview.jpg" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   </head>
   <body>
     <div id="root"></div>
