@@ -5,8 +5,6 @@ import { BrowserRouter } from 'react-router-dom';
 import Cart from './components/Cart';
 import { CartProvider } from './context/CartContext';
 import { useCart } from './context/CartContext';
-import ReserveTable from './components/ReserveTable';
-import Footer from './components/Footer';
 import LoadingSpinner from './components/LoadingSpinner';
 
 const WhatsAppButton = () => {
@@ -107,7 +105,7 @@ const App = () => {
       <BrowserRouter>
         <CartProvider>
           <HomePage />
-          <ReserveTable />
+          
           <WhatsAppButton />
           <LocationButton />
           <CartButton onClick={() => setIsCartOpen(true)} />
@@ -117,7 +115,7 @@ const App = () => {
           />
         </CartProvider>
       </BrowserRouter>
-      <Footer />
+    
     </div>
   );
 };

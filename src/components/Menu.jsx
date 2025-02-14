@@ -95,6 +95,9 @@ const Menu = () => {
 
   // Get unique categories
   const categories = ['All', ...new Set(menuItems.map(item => item.category))];
+  console.log(categories);
+  
+  
 
   // Filter menu items based on search and category
   const filteredItems = menuItems.filter(item => {
